@@ -34,7 +34,7 @@ function App() {
               <Route
                 path='/'
                 index
-                element={<Earth />} 
+                element={<Mercury />} 
               />
               <Route path='/earth' element={<Earth />} />
               <Route path='/mars' element={<Mars />} />
