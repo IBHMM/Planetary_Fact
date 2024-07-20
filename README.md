@@ -14,8 +14,4 @@ Mobile
 
 ![Screenshot 2024-07-20 174834](https://github.com/user-attachments/assets/15e73dd8-e55f-4213-94b8-5659575172dc)
 
-
-![Screenshot 2024-07-20 174749](https://github.com/user-attachments/assets/1a58ea1b-8468-4c73-84c4-53bd36d8a54f)
-
-
 ![Screenshot 2024-07-20 174734](https://github.com/user-attachments/assets/9f34259e-c907-426d-9b35-76d9c4e42b7e)
