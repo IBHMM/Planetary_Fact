@@ -1,5 +1,5 @@
 #stars{
-  background-image: url(./planets/images/background-stars.svg);
+  background-image: url("./assets/planets/images/background-stars.svg");
   background-repeat: repeat;
 }
 
