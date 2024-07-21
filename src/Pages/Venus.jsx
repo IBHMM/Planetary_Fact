@@ -4,6 +4,9 @@ import { useContext } from 'react';
 import { PlanetContext } from '../App';
 import { Information } from '../Components/Information.jsx'
 
+import planet from "../public/images/planet-venus.svg"
+import internal from "../public/images/planet-venus-internal.svg"
+import geology from "../public/images/geology-venus.png"
 
 export function Venus() {
 
@@ -12,8 +15,8 @@ export function Venus() {
     return(
         <>
             <Navbar />
-            <Main data={data[1]}/>
-            <Information data={data[1]} />
+            <Main data={data[1]} images={[planet, internal, geology]}/>
+            <Information data={data[1]} /> 
         </>
     )
 }

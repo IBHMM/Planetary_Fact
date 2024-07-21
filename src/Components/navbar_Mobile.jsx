@@ -1,8 +1,8 @@
 import { useState } from "react";
 import {Logo} from './Logo';
 import { Menu } from "./Menu";
-import hamburger from "../assets/planets/images/icon-hamburger.svg"
-import close from "../assets/planets/images/cross.png"
+import hamburger from "../public/images/icon-hamburger.svg"
+import close from "../public/images/cross.png"
 
 export function Mobile() {
 

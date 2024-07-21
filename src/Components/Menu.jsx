@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import mercuryIcon from '../assets/planets/images/planet-mercury.svg';
-import venusIcon from '../assets/planets/images/planet-venus.svg';
-import earthIcon from '../assets/planets/images/planet-earth.svg';
-import marsIcon from '../assets/planets/images/planet-mars.svg';
-import jupiterIcon from '../assets/planets/images/planet-jupiter.svg';
-import saturnIcon from '../assets/planets/images/planet-saturn.svg';
-import uranusIcon from '../assets/planets/images/planet-uranus.svg';
-import neptuneIcon from '../assets/planets/images/planet-neptune.svg';
+import mercuryIcon from '../public/images/planet-mercury.svg';
+import venusIcon from '../public/images/planet-venus.svg';
+import earthIcon from '../public/images/planet-earth.svg';
+import marsIcon from '../public/images/planet-mars.svg';
+import jupiterIcon from '../public/images/planet-jupiter.svg';
+import saturnIcon from '../public/images/planet-saturn.svg';
+import uranusIcon from '../public/images/planet-uranus.svg';
+import neptuneIcon from '../public/images/planet-neptune.svg';
 
 export function Menu({ isOpen }) {
     return (

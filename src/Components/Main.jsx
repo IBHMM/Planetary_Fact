@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {Sections} from './Sections.jsx';
 
-export function Main({data}) {
+export function Main({data, images}) {
 
     const [index, setIndex] = useState(0);
 
@@ -18,7 +18,7 @@ export function Main({data}) {
             <Sections Hstate={Hstate} index={index} setIndex={setIndex} color={color} />
 
             <section className="flex items-center max-[820px]:justify-center justify-end w-[50%] min-[820px]:ml-3 min-h-[501px] min-w-[200px]">
-                <img src={(index == 0) ? data.images.planet : (index == 2) ? data.images.internal : data.images.geology } alt="" />
+                <img src={(index == 0) ? images[0] : (index == 2) ? images[1] : images[2] } alt="" />
             </section>
 
             <section className="max-[400px]:px-3  flex flex-col w-[50%] min-[1001px]:pb-20 justify-center gap-5 max-[820px]:flex-row max-[820px]:w-full max-[820px]:items-center max-[820px]:justify-enevly ">
